@@ -1,2 +1,10 @@
 [build]
   publish = "_site"
+  command = """
+    wget -q https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.39/quarto-1.6.39-linux-amd64.tar.gz && \
+    mkdir -p $HOME/opt && \
+    tar -xzf quarto-1.6.39-linux-amd64.tar.gz -C $HOME/opt && \
+    export PATH=$HOME/opt/quarto-1.6.39/bin:$PATH && \
+    quarto --version && \
+    quarto render
+  """
