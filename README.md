@@ -1,10 +1,10 @@
-# Francisco Rowe Website
+# Elisabetta Pietrostefani Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2c50b051-db82-498b-b6d5-59b9c6d346cd/deploy-status)](https://app.netlify.com/sites/ecstatic-hoover-1143a1/deploys)
 
-Source code for [franciscorowe.com](https://franciscorowe.com), built with Quarto and deployed on Netlify.
+Source code for [pietrostefani.com](https://pietrostefani.com), built with Quarto and deployed on Netlify.
 
-This repository update and migration were completed collaboratively by Francisco Rowe and Codex.
+This repository update and migration were completed collaboratively by Elisabetta Pietrostefani and Claude Code.
 
 ## Stack
 
