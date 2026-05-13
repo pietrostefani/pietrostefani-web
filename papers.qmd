@@ -1,0 +1,35 @@
+---
+title: "Publications"
+title-block: false
+---
+
+# Publications
+
+::: {.lead style="font-size: 1rem; color: var(--muted); margin: 0 0 2.4rem; max-width: 65ch;"}
+Peer-reviewed articles, working papers, book chapters, and policy reports. A full and up-to-date list is available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=VVogR6sAAAAJ) and [ORCID](https://orcid.org/0000-0002-8115-1868).
+:::
+
+::: {.paper-list}
+
+1. **[Placeholder title — replace with your most recent paper].**  
+   *[Author list]*. **[Journal name]**, [year].  
+   <a class="paper-tab" href="#">Journal</a>
+   <a class="paper-tab" href="#">DOI</a>
+   <a class="paper-tab" href="#">PDF</a>
+
+2. **[Placeholder title — second paper].**  
+   *[Author list]*. **[Journal / Working paper series]**, [year].  
+   <a class="paper-tab" href="#">Journal</a>
+   <a class="paper-tab" href="#">DOI</a>
+   <a class="paper-tab" href="#">PDF</a>
+
+3. **[Placeholder title — third paper].**  
+   *[Author list]*. **[Journal name]**, [year].  
+   <a class="paper-tab" href="#">Journal</a>
+   <a class="paper-tab" href="#">PDF</a>
+
+:::
+
+::: {.callout-note appearance="simple" style="margin-top: 2.5rem;"}
+**Coming soon.** This page is being rebuilt — the full list of publications, working papers, and policy reports will return shortly. In the meantime, please use the Google Scholar and ORCID links above.
+:::

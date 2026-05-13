@@ -1,0 +1,468 @@
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+
+/* ---------- Design tokens ---------- */
+:root {
+  /* Palette: deep navy + warm orange */
+  --navy-900: #0A2540;
+  --navy-700: #1B3A5C;
+  --navy-500: #2D547D;
+  --cream-50: #FAF7F2;
+  --cream-100: #F2EEE6;
+  --orange-500: #E8741C;
+  --orange-700: #C2410C;
+  --orange-200: #F8D9BD;
+
+  /* Semantic tokens */
+  --bg: var(--cream-50);
+  --surface: #ffffff;
+  --surface-2: #fbfaf6;
+  --text: #14253B;
+  --muted: #5b6b7e;
+  --line: #e2dccf;
+  --line-strong: #cbc4b3;
+  --accent: var(--orange-500);
+  --accent-strong: var(--orange-700);
+  --link: var(--navy-700);
+  --link-hover: var(--orange-700);
+
+  --radius: 16px;
+  --radius-lg: 22px;
+}
+
+/* ---------- Base typography ---------- */
+body {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 300;
+  color: var(--text);
+  background: linear-gradient(180deg, #fdfcf8 0%, var(--cream-50) 100%);
+  letter-spacing: 0.005em;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, .navbar-title {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.025em;
+  color: var(--navy-900);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: clamp(2rem, 5.2vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: clamp(1.4rem, 2.8vw, 2.1rem);
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+  font-weight: 500;
+}
+
+p {
+  color: var(--text);
+  font-weight: 300;
+  margin-bottom: 1.1rem;
+}
+
+strong, b {
+  font-weight: 500;
+  color: var(--navy-900);
+}
+
+/* ---------- Links ---------- */
+a,
+a:visited {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(27, 58, 92, 0.25);
+  transition: color 150ms ease, border-color 150ms ease;
+  font-weight: 400;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--link-hover);
+  border-bottom-color: var(--orange-500);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[role="button"]:focus-visible,
+.navbar .nav-link:focus-visible,
+.ep-social a:focus-visible,
+.paper-tab:focus-visible {
+  outline: 3px solid var(--orange-500);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: var(--navy-900) !important;
+  border-bottom: 1px solid var(--navy-700);
+}
+
+.navbar .nav-link {
+  color: var(--cream-50) !important;
+  opacity: 0.78;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  border-bottom: none;
+  text-transform: none;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  opacity: 1;
+  color: var(--orange-200) !important;
+}
+
+.navbar .navbar-title {
+  color: var(--cream-50) !important;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar .navbar-brand:hover .navbar-title {
+  color: var(--orange-200) !important;
+}
+
+/* ---------- Home hero (simple static version) ---------- */
+.ep-home {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) 2fr;
+  gap: clamp(1.8rem, 4.5vw, 4rem);
+  align-items: start;
+  max-width: 1100px;
+  margin: 3rem auto 4rem;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
+.ep-home-photo {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 10px 30px rgba(10, 37, 64, 0.06);
+  background: var(--surface);
+}
+
+.ep-home-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ep-home-text h1 {
+  margin: 0 0 0.5rem;
+  color: var(--navy-900);
+}
+
+.ep-home-tagline {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: var(--orange-700);
+  margin: 0 0 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+
+.ep-home-intro {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--text);
+  max-width: 60ch;
+  font-weight: 300;
+}
+
+.ep-home-intro p {
+  margin: 0 0 1rem;
+}
+
+.ep-focus-label {
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 1.8rem 0 0.6rem;
+}
+
+.ep-interests {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.ep-interests li {
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  color: var(--navy-700);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.83rem;
+  font-weight: 400;
+}
+
+.ep-social {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.ep-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--navy-700);
+  font-size: 1.05rem;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.ep-social a:hover {
+  background: var(--orange-500);
+  color: #fff;
+  border-color: var(--orange-500);
+}
+
+.ep-social .ep-cv {
+  width: auto;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .ep-home {
+    grid-template-columns: 1fr;
+  }
+  .ep-home-photo {
+    max-width: 240px;
+  }
+}
+
+/* ---------- Page container ---------- */
+main#quarto-document-content.content {
+  max-width: 920px;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+/* ---------- Cards ---------- */
+.card,
+.project-card,
+.course-card,
+.resource-card,
+.talk-card,
+.blog-card,
+.paper-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.7rem;
+  margin-bottom: 1.2rem;
+  transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.card:hover,
+.project-card:hover,
+.course-card:hover,
+.resource-card:hover,
+.talk-card:hover,
+.blog-card:hover,
+.paper-card:hover {
+  border-color: var(--orange-500);
+  box-shadow: 0 8px 24px rgba(10, 37, 64, 0.05);
+}
+
+.project-card img,
+.talk-card img {
+  filter: grayscale(0.6);
+  transition: filter 220ms ease;
+  border-radius: 10px;
+}
+
+.project-card:hover img,
+.talk-card:hover img {
+  filter: grayscale(0);
+}
+
+/* ---------- Paper tabs ---------- */
+.paper-tab {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  background: var(--navy-900);
+  color: var(--cream-50);
+  border: 1px solid var(--navy-900);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.paper-tab:hover,
+.paper-tab:focus-visible {
+  background: var(--orange-500);
+  border-color: var(--orange-500);
+  color: #fff;
+}
+
+/* ---------- Footer ---------- */
+.nav-footer {
+  background: var(--navy-900);
+  color: var(--cream-50);
+  border-top: 1px solid var(--navy-700);
+  font-size: 0.82rem;
+  font-weight: 300;
+  padding: 1.2rem 0;
+}
+
+.nav-footer a {
+  color: var(--orange-200);
+  border-bottom-color: rgba(248, 217, 189, 0.4);
+}
+
+.nav-footer a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ---------- Lists ---------- */
+ol li,
+ul li {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.paper-list ol {
+  counter-reset: paper;
+  list-style: none;
+  padding-left: 0;
+}
+
+.paper-list ol > li {
+  counter-increment: paper;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.paper-list ol > li::before {
+  content: counter(paper);
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: var(--orange-500);
+  font-size: 1.05rem;
+}
+
+/* ---------- Tables ---------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.2rem 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  font-weight: 300;
+}
+
+th {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: var(--navy-900);
+}
+
+/* ---------- Code blocks ---------- */
+code {
+  background: var(--cream-100);
+  color: var(--navy-900);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+
+pre {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* ---------- Blockquotes ---------- */
+blockquote {
+  border-left: 3px solid var(--orange-500);
+  padding-left: 1.2rem;
+  margin-left: 0;
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* ---------- Lead / intro paragraph ---------- */
+.lead {
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 60ch;
+  margin: 0 0 2.4rem;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  .card,
+  .project-card,
+  .course-card,
+  .resource-card,
+  .talk-card,
+  .blog-card,
+  .paper-card {
+    padding: 1.2rem 1.25rem;
+  }
+}

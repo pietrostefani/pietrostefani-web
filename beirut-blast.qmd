@@ -1,0 +1,41 @@
+---
+title: "The Beirut Blast: vulnerability and inequality"
+title-block: false
+---
+
+# The Beirut Blast: vulnerability and inequality
+
+::: {.lead style="font-size: 1.05rem; color: var(--muted); margin: 0 0 2rem; max-width: 65ch;"}
+Investigating the effects of the 4th of August 2020 Beirut Blast on urban vulnerability and inequality, by combining spatial survey data collected in 2018 and 2021 with satellite imagery measuring building damage.
+:::
+
+## Background
+
+On 4 August 2020, the explosion at the Port of Beirut destroyed large parts of the surrounding neighbourhoods and damaged buildings several kilometres away. The blast occurred in a city already grappling with economic collapse, displacement, and uneven access to public services &mdash; making it a critical, if tragic, setting in which to study how shocks interact with pre-existing urban inequalities.
+
+This project asks how the blast reshaped vulnerability and inequality patterns at fine spatial scales, and what this implies for how we measure resilience in cities under stress.
+
+## Research questions
+
+- How did the 4 August 2020 blast change spatial patterns of vulnerability and inequality in Beirut?
+- Which neighbourhoods and which population groups absorbed the largest shock, and how does that map onto pre-blast indicators?
+- How can fine-grained spatial survey data and remote-sensing damage assessments be combined to track urban shocks more rigorously?
+
+## Methods and data
+
+- **Pre-blast spatial survey (2018)**, conducted as part of earlier MENA urban well-being work.
+- **Post-blast spatial survey (2021)**, designed to align with the 2018 baseline so changes can be measured at the household and neighbourhood level.
+- **Satellite imagery** measuring building damage levels across the affected area.
+- Spatial analysis combining survey indicators (well-being, livelihoods, services) with remote-sensed damage classifications.
+
+## Outputs
+
+*[To be added: working papers, journal articles, datasets, maps, talks.]*
+
+## Collaborators and partners
+
+*[To be added: co-authors, partner institutions, NGOs, funders.]*
+
+## Funding
+
+*[To be added: grant references and funders.]*

@@ -1,0 +1,14 @@
+---
+title: "Notes"
+title-block: false
+---
+
+# Notes
+
+::: {.lead style="font-size: 1rem; color: var(--muted); margin: 0 0 2.4rem; max-width: 65ch;"}
+Short writings on research, methods, teaching, and things along the way.
+:::
+
+::: {.callout-note appearance="simple"}
+**Coming soon.** Notes will appear here over time. Until then, you can follow along on [Bluesky](https://bsky.app/profile/pietrostefani.bsky.social) or get in touch by [email](mailto:e.pietrostefani@liverpool.ac.uk).
+:::

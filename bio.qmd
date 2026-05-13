@@ -1,0 +1,36 @@
+---
+title: "Bio"
+title-block: false
+---
+
+# About
+
+Elisabetta Pietrostefani is a **geographic data scientist** and **urban geographer** working at the intersection of spatial data science, survey methods, and urban policy. Her research aims to improve our understanding of people&rsquo;s evolving priorities in contemporary urban environments &mdash; particularly in places facing rapid change, displacement, or crisis.
+
+She is currently **Lecturer (Assistant Professor) in Geographic Data Science** at the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) at the **University of Liverpool**. She is also:
+
+- a **Visiting Fellow** at the [Department of Geography and Environment](https://www.lse.ac.uk/geography-and-environment/people/academic-staff/elisabetta-pietrostefani) at the **London School of Economics**;
+- an **Honorary Senior Research Fellow** at the [Institute for Global Prosperity (IGP)](https://www.ucl.ac.uk/bartlett/igp/people/academic-staff) at **University College London**;
+- a **Research Associate** at the [LSE Middle East Centre](https://www.lse.ac.uk/middleeastcentre).
+
+## Research
+
+Elisabetta received her [PhD in Policy Planning and Urban Economics](http://etheses.lse.ac.uk/4032/1/Pietrostefani__Essays-planning-policy.pdf) from the London School of Economics in 2019.
+
+Her work has analysed the effects of **density** and **conservation policies**, assessed **urban well-being** and **inequalities** in contexts of mass displacement, and investigated **informal labour markets** to evaluate urban livelihood strategies. She works across analytic tools, including spatial techniques applied to socio-economic and remote-sensed data, and is a firm believer in interdisciplinary and mixed-methods research.
+
+Currently, building on spatial survey data collected in 2018 and 2021 in Lebanon together with satellite imagery measuring building damage, she is investigating the effects of the 4th of August Beirut Blast on vulnerability and inequality indicators.
+
+## Policy and applied work
+
+A background in **International Development** led Elisabetta to spend several years working in the MENA region. Much of her work involves advising and supporting:
+
+- **NGOs**: CatalyticAction, Regenerate Lebanon, MENA Design Research Centre.
+- **Multi-lateral agencies**: OECD, UN-Habitat, UNHCR, the French Development Agency.
+- **Local governments and policy institutes**, including the Issam Fares Public Policy Institute.
+
+A core principle of her work is to be policy-oriented and to address the effects of rapid urban development on a wide range of social and economic outcomes.
+
+## Contact
+
+You can reach Elisabetta at <a href="mailto:e.pietrostefani@liverpool.ac.uk">e.pietrostefani@liverpool.ac.uk</a>, or find her on [Google Scholar](https://scholar.google.com/citations?hl=en&user=VVogR6sAAAAJ), [ORCID](https://orcid.org/0000-0002-8115-1868), [GitHub](https://github.com/pietrostefani), [Bluesky](https://bsky.app/profile/pietrostefani.bsky.social), and [LinkedIn](https://www.linkedin.com/in/epietrostefani/).

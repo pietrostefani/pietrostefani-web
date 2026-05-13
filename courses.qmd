@@ -1,0 +1,21 @@
+---
+title: "Courses"
+---
+
+::: {.media-grid}
+
+::: {.media-card}
+![](content/courses/gds/featured.jpg){fig-alt="Geographic data science course image"}
+
+### Geographic Data Science
+
+<span class="meta">Policy-oriented introduction to geographic data science methods and workflows in R.</span>
+
+[Course website](https://fcorowe.github.io/udd_gds_course/)
+:::
+
+::: {.media-card}
+![](content/courses/intro-gds/featured.jpg){fig-alt="Map and code learning materials"}
+
+
+

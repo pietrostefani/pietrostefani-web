@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - favicon.ico
+    - favicon-v3.ico
+    - apple-touch-icon.png
+    - apple-touch-icon-v3.png
+    - assets/favicon.svg
+    - assets/headshot.jpeg
+    - assets/cv.pdf
+  render:
+    - index.qmd
+    - bio.qmd
+    - projects.qmd
+    - beirut-blast.qmd
+    - papers.qmd
+    - courses.qmd
+    - blog.qmd
+    - talks.qmd
+    - resources.qmd
+
+website:
+  title: "Elisabetta Pietrostefani"
+  site-url: "https://pietrostefani.com"
+  favicon: assets/favicon.svg
+  navbar:
+    background: "#0A2540"
+    foreground: "#FAF7F2"
+    pinned: true
+    left:
+      - href: bio.qmd
+        text: Bio
+      - href: projects.qmd
+        text: Projects
+      - href: papers.qmd
+        text: Publications
+      - href: courses.qmd
+        text: Teaching
+      - href: blog.qmd
+        text: Notes
+      - href: talks.qmd
+        text: Talks
+      - href: resources.qmd
+        text: Resources
+  page-footer:
+    left: "© 2026 Elisabetta Pietrostefani"
+    right: "<i class='bi bi-code-slash' aria-hidden='true'></i> Built with Quarto"
+
+format:
+  html:
+    theme:
+      - flatly
+      - assets/styles.scss
+    include-in-header:
+      text: |
+        <link rel="icon" href="/favicon.ico?v=4" sizes="any">
+        <link rel="shortcut icon" href="/favicon.ico?v=4" type="image/x-icon">
+        <link rel="icon" href="/favicon-v3.ico" sizes="any">
+        <link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4">
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    include-after-body: assets/menu.html
+
+execute:
+  freeze: auto

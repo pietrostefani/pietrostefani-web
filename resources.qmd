@@ -1,0 +1,41 @@
+---
+title: "Resources"
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+          body {
+            background: #0F2143;
+            color: #ffffff;
+          }
+          h1, h2, h3, h4, h5, h6,
+          .meta,
+          .page-subtitle {
+            color: #ffffff;
+          }
+          .media-card {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.25);
+          }
+          .media-card a,
+          .media-card a:visited {
+            color: #ffffff;
+            text-decoration: underline;
+          }
+          .media-card a:hover,
+          .media-card a:focus-visible {
+            color: #dbe8ff;
+            text-decoration: underline;
+          }
+          .media-grid .meta {
+            color: #D4D4D4;
+            font-size: 0.75rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        </style>
+---
+

@@ -1,0 +1,20 @@
+---
+title: "Talks"
+title-block: false
+---
+
+# Talks
+
+::: {.lead style="font-size: 1rem; color: var(--muted); margin: 0 0 2.4rem; max-width: 65ch;"}
+Conference talks, invited seminars, and public lectures.
+:::
+
+## Upcoming
+
+*[None scheduled at the moment — please check back later, or get in touch by [email](mailto:e.pietrostefani@liverpool.ac.uk).]*
+
+## Recent
+
+::: {.callout-note appearance="simple"}
+**Coming soon.** A full record of recent talks will appear here. In the meantime, contact me directly for slides or recordings.
+:::

@@ -1,0 +1,49 @@
+---
+title: ""
+title-block: false
+page-layout: full
+format:
+  html:
+    body-classes: ep-homepage
+---
+
+```{=html}
+<section class="ep-home" aria-label="Home intro">
+
+  <div class="ep-home-photo">
+    <img src="assets/headshot.jpeg" alt="Portrait of Elisabetta Pietrostefani">
+  </div>
+
+  <div class="ep-home-text">
+    <h1>Elisabetta Pietrostefani</h1>
+    <p class="ep-home-tagline">Geographic data scientist &amp; urban geographer</p>
+
+    <div class="ep-home-intro">
+      <p>Elisabetta Pietrostefani is a Lecturer (Assistant Professor) in <strong>Geographic Data Science</strong> at the <a href="https://www.liverpool.ac.uk/geographic-data-science/">Geographic Data Science Lab</a> at the University of Liverpool. She is a Visiting Fellow at the <a href="https://www.lse.ac.uk/geography-and-environment/people/academic-staff/elisabetta-pietrostefani">Department of Geography and Environment</a> at the London School of Economics, an Honorary Senior Research Fellow at the <a href="https://www.ucl.ac.uk/bartlett/igp/people/academic-staff">Institute for Global Prosperity</a> at UCL, and a Research Associate at the <a href="https://www.lse.ac.uk/middleeastcentre">LSE Middle East Centre</a>.</p>
+
+      <p>Her research combines spatial data science and survey techniques to improve understanding of people&rsquo;s evolving priorities in contemporary urban environments &mdash; with a focus on urban vulnerabilities and inequalities, new forms of data, and data collection in data-poor contexts.</p>
+    </div>
+
+    <p class="ep-focus-label" style="font-family: 'Space Grotesk', sans-serif; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.78rem; color: var(--muted); margin: 1.4rem 0 0.5rem;">Research interests</p>
+    <ul class="ep-interests">
+      <li>Urban vulnerabilities &amp; inequalities</li>
+      <li>Geographic data science</li>
+      <li>New forms of data</li>
+      <li>Data collection in data-poor contexts</li>
+    </ul>
+
+    <div class="ep-social" aria-label="Social and contact links">
+      <a href="mailto:e.pietrostefani@liverpool.ac.uk" aria-label="Email"><span class="bi bi-envelope-fill"></span></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=VVogR6sAAAAJ" aria-label="Google Scholar"><span class="bi bi-mortarboard-fill"></span></a>
+      <a href="https://orcid.org/0000-0002-8115-1868" aria-label="ORCID"><span class="bi bi-person-vcard"></span></a>
+      <a href="https://github.com/pietrostefani" aria-label="GitHub"><span class="bi bi-github"></span></a>
+      <a href="https://www.linkedin.com/in/epietrostefani/" aria-label="LinkedIn"><span class="bi bi-linkedin"></span></a>
+      <a href="https://bsky.app/profile/pietrostefani.bsky.social" aria-label="Bluesky">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="currentColor"><path d="M5.04 3.75c2.14 1.61 4.44 4.89 5.96 8.04 1.52-3.15 3.82-6.43 5.96-8.04 1.54-1.16 4.04-2.06 4.04.8 0 .57-.33 4.79-.53 5.47-.7 2.34-3.23 2.94-5.48 2.56 3.93.67 4.94 2.89 2.78 5.11-4.11 4.22-5.9-1.06-6.36-2.41-.08-.23-.12-.33-.42-.33s-.34.1-.42.33c-.46 1.35-2.25 6.63-6.36 2.41-2.16-2.22-1.15-4.44 2.78-5.11-2.25.38-4.78-.22-5.48-2.56-.2-.68-.53-4.9-.53-5.47 0-2.86 2.5-1.96 4.04-.8Z"/></svg>
+      </a>
+      <a href="assets/cv.pdf" class="ep-cv" aria-label="Curriculum vitae">CV</a>
+    </div>
+  </div>
+
+</section>
+```

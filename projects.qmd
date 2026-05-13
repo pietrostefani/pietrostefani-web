@@ -1,0 +1,16 @@
+---
+title: "Project"
+---
+
+::: {.media-grid .projects-grid}
+
+::: {.media-card}
+![](static/media/images/projects-page-2026-02-21.png){fig-alt="Satellite imagery over city"}
+
+### IMAGO
+
+<span class="meta">Making satellite imagery useful, usable and used across social research and policy.</span>
+
+[Project website](https://imago.ac.uk)
+:::
+
